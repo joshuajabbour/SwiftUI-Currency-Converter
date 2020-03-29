@@ -69,7 +69,7 @@ struct ConverterView : View {
                         	}
                         }
                     }.onAppear(perform: loadCurrencies)
-                    .navigationBarItem(title: Text("Currenceis 💱"))
+                    .navigationBarItem(title: Text("Currencies 💱"))
                     .navigationBarItems(trailing: Button(action: { self.isEditing.toggle() }) {
                         if !self.isEditing {
                             Text("Edit")
